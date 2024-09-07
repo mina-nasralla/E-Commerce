@@ -105,6 +105,8 @@ flutter:
     - assets/image/pageItemBG2.svg
     - assets/image/pageitemImg1.svg
     - assets/image/pageitemImg2.svg
+    - assets/image/facebook Icon.svg
+    - assets/image/google Icon.svg
 
 flutter_launcher_icons:
   android: "launcher_icon"

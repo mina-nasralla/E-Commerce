@@ -42,8 +42,8 @@ class _SplashViewBodyState extends State<SplashViewBody> {
     Future.delayed(const Duration(seconds: 8), ()  {
       bool isOnBoardingSeen = SharedPrefs.getBool(KisOnBoardingSeen);
       if( isOnBoardingSeen) {
-        Navigator.pushReplacement(context,
-            MaterialPageRoute(builder: (context) => const Signin()));
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => const LoginView()));
       }else{
         Navigator.pushReplacement(context,
             MaterialPageRoute(builder: (context) => const OnboardingView()));

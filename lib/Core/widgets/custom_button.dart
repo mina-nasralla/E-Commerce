@@ -16,7 +16,7 @@ class CustomButton extends StatelessWidget {
         onPressed: onpress,
         child: Text(
           text,
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(color: Colors.white,fontSize: 16,fontWeight: FontWeight.bold),
         ),
         style: TextButton.styleFrom(
             shape: RoundedRectangleBorder(

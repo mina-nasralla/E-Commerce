@@ -59,7 +59,7 @@ class _OnboardingViewBodyState extends State<OnboardingViewBody> {
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: CustomButton(onpress: () {
               SharedPrefs.setBool(KisOnBoardingSeen, true);
-              Navigator.push(context, MaterialPageRoute(builder: (context)=>const Signin()));
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>const LoginView()));
             }, text: 'ابدأ الان'),
           ),
         ),

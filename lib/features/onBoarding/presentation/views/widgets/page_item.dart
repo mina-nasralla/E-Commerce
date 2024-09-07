@@ -31,7 +31,7 @@ class PageItem extends StatelessWidget {
                 child: InkWell(
                   onTap: (){
                     SharedPrefs.setBool(KisOnBoardingSeen, true);
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>const Signin()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>const LoginView()));
                   },
                   child: const Padding(
                     padding: EdgeInsets.all(15),

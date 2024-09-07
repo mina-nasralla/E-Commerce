@@ -7,4 +7,6 @@ class Assets {
   static const String pageItemBG2 = 'assets/image/pageItemBG2.svg';
   static const String pageitemImg1 = 'assets/image/pageitemImg1.svg';
   static const String pageitemImg2 = 'assets/image/pageitemImg2.svg';
+  static const String facebookicon = 'assets/image/facebook Icon.svg';
+  static const String googleicon = 'assets/image/google Icon.svg';
 }
